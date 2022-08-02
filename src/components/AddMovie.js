@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const movieApi = 'http://localhost:8000/movies'
+const movieApi = 'https://jac1.herokuapp.com/movies'
 
 export default function () {
   const [title, setTitle] = useState('');
