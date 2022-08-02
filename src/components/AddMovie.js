@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 const movieApi = 'https://jac1.herokuapp.com/movies'
 
-export default function () {
+    const AddMovie = () =>{
   const [title, setTitle] = useState('');
   const [type, setType] = useState('');
   const [genres, setGenres] = useState("");
@@ -96,3 +96,4 @@ export default function () {
     </div>
   )
 }
+export default AddMovie;
